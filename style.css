@@ -8,7 +8,7 @@
     letter-spacing: 1px;
 }
 body{
-    background-color: #e2e2e2;
+    background-color: #110228;
 }
 .tool-bmi-info{
     margin:2px;
@@ -28,6 +28,7 @@ body{
     font-style: italic;
     font-size: 40px;
     font-weight: 700;
+    color: #E5E5E5;
 }
 .tool-container-feild-group{
     display: flex;
@@ -38,7 +39,7 @@ body{
     width: 50%;
     padding: 10px;
     margin: 5px;
-    background: rgb(154, 197, 163);
+    background: rgb(155, 116, 205);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -50,7 +51,7 @@ body{
     margin: 5px auto;
     position: relative;
     padding: 10px 5px;
-    border-bottom: 1px solid rgb(222, 228, 228);
+    border-bottom: 1px solid rgb(111, 170, 170);
 }
 .tool-input-group:last-child{
     border: none;
@@ -87,8 +88,8 @@ body{
 .tool-btn-reset{
     width: 150px;
     margin-left: 0px;
-    background: rgb(199, 214, 63);
-    color: rgb(58, 25, 25);
+    background: rgb(66, 42, 97);
+    color: rgb(240, 57, 231);
 }
 .tool-select-group{
     float: right;
@@ -105,7 +106,8 @@ body{
 .tool-btn-calculate{
     width: 150px;
     margin-right: 0px;
-    background: rgb(33, 83, 219);
+    background: rgb(240, 57, 231);
+    color:  rgb(66, 42, 97);
 }
 .tool-output-box{
     display: none;
